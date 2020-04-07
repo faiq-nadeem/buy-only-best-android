@@ -8,4 +8,11 @@
 
     <color name="buttonPress">#D491F5</color>
     <color name="buttonOpen">#ffffff</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="conPrimary">#CDDC39</color>
+    <color name="conPrimaryDark">#FF5722</color>
+    <color name="conAccent">#3F51B5</color>
+
 </resources>

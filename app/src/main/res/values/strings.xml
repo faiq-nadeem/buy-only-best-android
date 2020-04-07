@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">BuyOnlyBest</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="author">Faiq Nadeem</string>
+    <string name="company">MicroElab</string>
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
@@ -16,4 +18,45 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!--    String from the main page   !-->
+    <string name="mobile">Mobile</string>
+    <string name="tablet">Tablet</string>
+    <string name="laptop">Laptop</string>
+    <string name="gaming_laptop">Gaming Laptop</string>
+    <string name="pc">PC</string>
+    <string name="gaming_pc">Gaming PC</string>
+    <string name="chat">Chat Now</string>
+    <string name="support">Support</string>
+    <string name="about">About Us</string>
+    <string name="other_apps">More Apps</string>
+
+    <!--    String from the features page   <string name=""></string>     !-->
+    <string name="camera_quality">Camera Quality</string>
+    <string name="camera_pixel">Camera Pixel</string>
+    <string name="camera_wide">Wide Angle Camera</string>
+    <string name="notch">Notch Display</string>
+    <string name="finger_print">Finger Print</string>
+    <string name="display_ratio">Screen To Body Ratio</string>
+    <string name="ram">Better RAM</string>
+    <string name="storage">More Storage</string>
+    <string name="build">Build Material</string>
+    <string name="less">Less Weight</string>
+    <string name="slim">More Slim</string>
+    <string name="processor">Better Processor</string>
+    <string name="android">Android</string>
+    <string name="iphone">Iphone</string>
+    <string name="windows">Windows</string>
+    <string name="mac">Mac OS</string>
+    <string name="nvidia">Nvidia</string>
+    <string name="amd">AMD</string>
+    <string name="rtx">RTX</string>
+    <string name="gtx">GTX</string>
+    <string name="tower">Tower</string>
+    <string name="desktop">Desktop</string>
+    <string name="display_size">Screen Size</string>
+    <string name="led">LED Display</string>
+    <string name="lcd">LCD Display</string>
+
+
 </resources>

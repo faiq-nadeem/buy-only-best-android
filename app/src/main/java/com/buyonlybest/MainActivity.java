@@ -8,9 +8,6 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,30 +16,41 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void mobile(View view){
-        setTitle("MOBILE");
-        Intent featuresActivity = new Intent(getBaseContext(),   FeatureActivity.class);
+    public void mobile_tablet(View view){
+        Intent mobileActivity = new Intent(getBaseContext(),   MobileActivity.class);
+        startActivity(mobileActivity);
+    }
+
+
+    public void laptop_gaming(View view){
+        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
         startActivity(featuresActivity);
     }
 
-    public void tablet(View view){
-        setTitle("TABLET");
-        Intent featuresActivity = new Intent(getBaseContext(),   FeatureActivity.class);
+    public void pc_gaming(View view){
+        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
         startActivity(featuresActivity);
-
     }
 
-    public void laptop(View view){
-        setTitle("LAPTOP");
-        Intent featuresActivity = new Intent(getBaseContext(),   FeatureActivity.class);
+    public void chat(View view){
+        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
         startActivity(featuresActivity);
-
     }
 
-    public void pc(View view){
-        setTitle("PC / GAMING PC");
-        Intent featuresActivity = new Intent(getBaseContext(),   FeatureActivity.class);
+    public void support(View view){
+        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
         startActivity(featuresActivity);
-
     }
+
+    public void about(View view){
+        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
+        startActivity(featuresActivity);
+    }
+
+    public void other_apps(View view){
+        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
+        startActivity(featuresActivity);
+    }
+
+
 }
