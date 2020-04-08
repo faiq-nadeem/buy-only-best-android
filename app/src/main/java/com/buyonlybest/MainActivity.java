@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void chat(View view){
-        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
+        Intent featuresActivity = new Intent(getBaseContext(),   ChatActivity.class);
         startActivity(featuresActivity);
     }
 
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void other_apps(View view){
-        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
+        Intent featuresActivity = new Intent(getBaseContext(),   MoreActivity.class);
         startActivity(featuresActivity);
     }
 

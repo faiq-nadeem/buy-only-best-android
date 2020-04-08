@@ -1,9 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/banner_bob"
     tools:context=".ChatActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"/>
+
+
+        <TextView
+            android:layout_below="@+id/title"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_des"
+            android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@+id/first"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp"
+                    android:layout_margin="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/work"
+                        android:padding="10dp"
+                        android:gravity="left"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/first"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    app:cardElevation="15dp"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="22dp"
+                    android:layout_margin="20dp">
+                    <ImageView
+                        android:src="@drawable/chat"
+                        android:layout_width="90dp"
+                        android:padding="10sp"
+                        android:layout_height="90dp"/>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
