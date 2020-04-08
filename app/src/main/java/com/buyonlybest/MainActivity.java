@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void about(View view){
-        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
-        startActivity(featuresActivity);
+        Intent aboutActivity = new Intent(getBaseContext(),   AboutActivity.class);
+        startActivity(aboutActivity);
     }
 
     public void other_apps(View view){

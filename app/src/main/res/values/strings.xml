@@ -29,7 +29,14 @@
     <string name="chat">Chat Now</string>
     <string name="support">Support</string>
     <string name="about">About Us</string>
+    <string name="about_des">We are What You Need. We Understand You, We Believe In Your Ideas</string>
     <string name="other_apps">More Apps</string>
+    <string name="microelab_des">MicroElab Industries Gives you the best solutions that solve your problems. We Publish, We Build, We Create </string>
+    <string name="web_des">We Provide Web Platforms, Creating, Hosting, Uploading, Migrating, Maintaining</string>
+    <string name="industry_des">Industrial Automation &amp; IOT Stuff Is What We Are At Best</string>
+    <string name="lahorestore">We Provide LahoreStore</string>
+    <string name="lahorestore_des">Pakistan First Online Store With Cheapest Rates From The Market</string>
+
 
     <!--    String from the features page   <string name=""></string>     !-->
     <string name="battery">Battery</string>
