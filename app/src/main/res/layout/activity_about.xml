@@ -58,8 +58,8 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerInParent="true"
                     android:layout_toLeftOf="@+id/first"
+                    app:cardElevation="-1dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="20dp">
                     <TextView
                         android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
-                    app:cardElevation="15dp"
+                    app:cardElevation="3dp"
                     android:layout_centerInParent="true"
                     app:cardCornerRadius="22dp"
                     android:layout_margin="20dp">
@@ -101,15 +101,15 @@
                     android:layout_marginLeft="20dp"
                     android:layout_toLeftOf="@+id/first"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
-                    app:cardCornerRadius="0dp"
-                    android:layout_margin="20dp">
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="22dp"
+                    android:layout_margin="10dp">
                     <ImageView
                         android:src="@drawable/fawad"
                         android:clickable="true"
                         android:foreground="?android:attr/selectableItemBackground"
-                        android:layout_width="95dp"
-                        android:layout_height="95dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:id="@+id/first"
@@ -118,15 +118,17 @@
                     android:layout_marginLeft="20dp"
                     android:layout_toLeftOf="@+id/second"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
-                    app:cardCornerRadius="0dp"
-                    android:layout_margin="20dp">
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="22dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="10dp">
                     <ImageView
                         android:src="@drawable/faiq"
                         android:clickable="true"
                         android:foreground="?android:attr/selectableItemBackground"
-                        android:layout_width="95dp"
-                        android:layout_height="95dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:id="@+id/second"
@@ -135,15 +137,17 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
-                    app:cardCornerRadius="0dp"
-                    android:layout_margin="20dp">
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="22dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="20dp">
                     <ImageView
                         android:src="@drawable/naukhaiz"
                         android:clickable="true"
                         android:foreground="?android:attr/selectableItemBackground"
-                        android:layout_width="95dp"
-                        android:layout_height="95dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
             </RelativeLayout>
 
@@ -155,7 +159,6 @@
                     android:layout_height="match_parent"
                     android:layout_centerInParent="true"
                     app:cardCornerRadius="22dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="10dp">
                     <TextView
                         android:layout_width="match_parent"
@@ -182,8 +185,8 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerInParent="true"
                     android:layout_toLeftOf="@+id/first"
+                    app:cardElevation="-1dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="20dp">
                     <TextView
                         android:layout_width="wrap_content"
@@ -201,7 +204,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
+                    app:cardElevation="3dp"
                     app:cardCornerRadius="22dp"
                     android:layout_margin="20dp">
                     <ImageView
@@ -224,9 +227,9 @@
                     android:layout_marginLeft="20dp"
                     android:layout_toLeftOf="@+id/first"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
+                    app:cardElevation="3dp"
                     app:cardCornerRadius="22dp"
-                    android:layout_margin="20dp">
+                    android:layout_margin="10dp">
                     <ImageView
                         android:src="@drawable/android"
                         android:clickable="true"
@@ -242,9 +245,11 @@
                     android:layout_marginLeft="20dp"
                     android:layout_toLeftOf="@+id/second"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
+                    app:cardElevation="3dp"
                     app:cardCornerRadius="22dp"
-                    android:layout_margin="20dp">
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="10dp">
                     <ImageView
                         android:src="@drawable/iphone"
                         android:clickable="true"
@@ -260,9 +265,11 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
+                    app:cardElevation="3dp"
                     app:cardCornerRadius="22dp"
-                    android:layout_margin="20dp">
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="20dp">
                     <ImageView
                         android:src="@drawable/windows"
                         android:clickable="true"
@@ -278,31 +285,13 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp">
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/first"
-                    android:layout_alignParentLeft="true"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
-                    app:cardCornerRadius="22dp"
-                    android:layout_margin="20dp">
-                    <ImageView
-                        android:src="@drawable/web_design_square"
-                        android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:layout_width="100dp"
-                        android:padding="10sp"
-                        android:layout_height="100dp"/>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
                     android:layout_centerInParent="true"
-                    android:layout_toRightOf="@+id/first"
+                    android:layout_toLeftOf="@+id/first"
+                    app:cardElevation="-1dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="20dp">
                     <TextView
                         android:layout_width="wrap_content"
@@ -313,28 +302,23 @@
                         android:textColor="@color/colorPrimary"
                         android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
                 <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
+                    android:id="@+id/first"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
                     android:layout_centerInParent="true"
+                    app:cardElevation="3dp"
                     app:cardCornerRadius="22dp"
-                    app:cardElevation="15dp"
-                    android:layout_margin="10dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/lahorestore"
-                        android:padding="10dp"
-                        android:textAllCaps="true"
-                        android:gravity="center"
-                        android:textColor="@color/colorPrimary"
-                        android:textStyle="bold"
-                        android:textSize="22sp" />
+                    android:layout_margin="20dp">
+                    <ImageView
+                        android:src="@drawable/web_design_square"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:layout_width="100dp"
+                        android:padding="10sp"
+                        android:layout_height="100dp"/>
                 </androidx.cardview.widget.CardView>
             </RelativeLayout>
 
@@ -346,7 +330,7 @@
                     android:layout_height="match_parent"
                     android:layout_centerInParent="true"
                     app:cardCornerRadius="22dp"
-                    app:cardElevation="15dp"
+                    app:cardElevation="3dp"
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/lahorestore_long"
@@ -367,8 +351,8 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerInParent="true"
                     android:layout_toLeftOf="@+id/first"
+                    app:cardElevation="-1dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="20dp">
                     <TextView
                         android:layout_width="wrap_content"
@@ -386,7 +370,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
+                    app:cardElevation="3dp"
                     app:cardCornerRadius="22dp"
                     android:layout_margin="20dp">
                     <ImageView

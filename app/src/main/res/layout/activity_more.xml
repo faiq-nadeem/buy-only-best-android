@@ -55,8 +55,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_centerInParent="true"
+                    app:cardElevation="-1dp"
                     app:cardCornerRadius="22dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="10dp">
                     <TextView
                         android:layout_width="match_parent"
@@ -81,13 +81,13 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerInParent="true"
                     android:layout_toLeftOf="@+id/first"
+                    app:cardElevation="-1dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="20dp">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="@string/microelab_des"
+                        android:text="@string/microelab_visit"
                         android:padding="10dp"
                         android:gravity="left"
                         android:textColor="@color/colorPrimary"
@@ -100,7 +100,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
+                    app:cardElevation="4dp"
                     app:cardCornerRadius="22dp"
                     android:layout_margin="20dp">
                     <ImageView
@@ -123,13 +123,13 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerInParent="true"
                     android:layout_toLeftOf="@+id/first"
+                    app:cardElevation="-1dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
                     android:layout_margin="20dp">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="@string/lahorestore_des"
+                        android:text="@string/lahorestore_visit"
                         android:padding="10dp"
                         android:gravity="left"
                         android:textColor="@color/colorPrimary"
@@ -142,7 +142,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_centerInParent="true"
-                    app:cardElevation="15dp"
+                    app:cardElevation="4dp"
                     app:cardCornerRadius="22dp"
                     android:layout_margin="20dp">
                     <ImageView
