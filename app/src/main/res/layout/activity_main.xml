@@ -280,37 +280,6 @@
                     android:layout_rowWeight="1"
                     android:clickable="true"
                     app:cardElevation="15dp"
-                    android:onClick="support"
-                    app:cardCornerRadius="52dp"
-                    android:layout_margin="22dp">
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:padding="16dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-                        <ImageView
-                            android:src="@drawable/support"
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"/>
-                        <TextView
-                            android:layout_marginTop="12dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="18sp"
-                            android:textAlignment="center"
-                            android:text="@string/support"
-                            android:textColor="@color/colorPrimary"/>
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:clickable="true"
-                    app:cardElevation="15dp"
                     android:onClick="about"
                     app:cardCornerRadius="52dp"
                     android:layout_margin="22dp">
@@ -366,8 +335,36 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-
-
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:clickable="true"
+                    app:cardElevation="15dp"
+                    android:onClick="exit_app"
+                    app:cardCornerRadius="52dp"
+                    android:layout_margin="22dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:src="@drawable/exit"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
+                            android:text="@string/exit"
+                            android:textColor="@color/colorPrimary"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
             </GridLayout>
 

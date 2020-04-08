@@ -57,10 +57,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(featuresActivity);
     }
 
-    public void support(View view){
-        Intent featuresActivity = new Intent(getBaseContext(),   LaptopActivity.class);
-        startActivity(featuresActivity);
-    }
 
     public void about(View view){
         Intent aboutActivity = new Intent(getBaseContext(),   AboutActivity.class);
@@ -70,6 +66,20 @@ public class MainActivity extends AppCompatActivity {
     public void other_apps(View view){
         Intent featuresActivity = new Intent(getBaseContext(),   MoreActivity.class);
         startActivity(featuresActivity);
+    }
+
+    public void exit_app(View view){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.MyAlertDialog);
+        builder.setTitle("ARE YOU SURE, YOU WANT TO EXIT?");
+        builder.setMessage("If you need any please Contact Us!");
+        builder.setNegativeButton("NEED HELP", null);
+        builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+
+        }).show();
     }
 
 
