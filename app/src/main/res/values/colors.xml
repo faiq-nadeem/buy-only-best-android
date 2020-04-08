@@ -14,5 +14,7 @@
     <color name="conPrimary">#CDDC39</color>
     <color name="conPrimaryDark">#FF5722</color>
     <color name="conAccent">#3F51B5</color>
+    <color name="colorDark">#000000</color>
+
 
 </resources>

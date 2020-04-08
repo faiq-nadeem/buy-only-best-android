@@ -32,10 +32,11 @@
     <string name="other_apps">More Apps</string>
 
     <!--    String from the features page   <string name=""></string>     !-->
-    <string name="camera_quality">Camera Quality</string>
-    <string name="camera_pixel">Camera Pixel</string>
+    <string name="battery">Battery</string>
+    <string name="camera">Camera Quality</string>
     <string name="camera_wide">Wide Angle Camera</string>
     <string name="notch">Notch Display</string>
+    <string name="display_size">Screen Size</string>
     <string name="finger_print">Finger Print</string>
     <string name="display_ratio">Screen To Body Ratio</string>
     <string name="ram">Better RAM</string>
@@ -50,13 +51,13 @@
     <string name="mac">Mac OS</string>
     <string name="nvidia">Nvidia</string>
     <string name="amd">AMD</string>
+    <string name="radeon">Radeon</string>
+    <string name="intel">Intel</string>
     <string name="rtx">RTX</string>
     <string name="gtx">GTX</string>
     <string name="tower">Tower</string>
     <string name="desktop">Desktop</string>
-    <string name="display_size">Screen Size</string>
-    <string name="led">LED Display</string>
-    <string name="lcd">LCD Display</string>
+
 
 
 </resources>

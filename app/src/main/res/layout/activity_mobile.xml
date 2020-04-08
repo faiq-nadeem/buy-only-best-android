@@ -66,7 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/camera"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -75,7 +75,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="18sp"
                         android:textAlignment="center"
-                        android:text="@string/camera_pixel"
+                        android:text="@string/camera"
                         android:textColor="@color/colorPrimary"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -96,7 +96,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/battery"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -105,7 +105,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="18sp"
                         android:textAlignment="center"
-                        android:text="@string/camera_quality"
+                        android:text="@string/battery"
                         android:textColor="@color/colorPrimary"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -126,7 +126,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/camera_wide"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -156,7 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/screen_size"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -186,7 +186,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/screen_body_ratio"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -216,7 +216,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/notch"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -246,7 +246,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/ram"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -276,7 +276,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/storage"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -306,7 +306,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/iphone"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -336,7 +336,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/android"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -366,7 +366,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/less"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -396,7 +396,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/slim"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -426,7 +426,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/build"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView
@@ -455,7 +455,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:src="@drawable/about_button"
+                        android:src="@drawable/finger_print"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
                     <TextView

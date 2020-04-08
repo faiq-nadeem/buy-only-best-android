@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/banner_bob"
     tools:context="com.buyonlybest.WelcomeActivity">
 
     <androidx.cardview.widget.CardView
@@ -12,7 +13,7 @@
         android:layout_marginTop="120dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        app:cardElevation="25dp"
+        app:cardElevation="10dp"
         app:cardCornerRadius="200dp">
 
         <ImageView
@@ -29,16 +30,18 @@
         android:text="BUY ONLY BEST"
         android:gravity="center"
         android:layout_marginTop="50dp"
-        android:textSize="36sp"
+        android:textSize="30sp"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
+
         android:layout_gravity="center">
 
     </TextView>
+
     <ProgressBar
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="250dp"
-        android:layout_height="21dp"
+        android:layout_width="281dp"
+        android:layout_height="28dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:indeterminate="true"
