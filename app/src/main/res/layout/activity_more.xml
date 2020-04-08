@@ -105,6 +105,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/microelab"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:padding="10sp"
                         android:layout_height="90dp"/>
@@ -145,6 +147,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/lahorestore_short"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:padding="10sp"
                         android:layout_height="90dp"/>

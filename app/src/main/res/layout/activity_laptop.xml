@@ -53,12 +53,14 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
                 app:cardElevation="15dp"
                 app:cardCornerRadius="52dp"
-                android:layout_margin="22dp">
+                android:layout_margin="22dp"
+                android:id="@+id/ram">
                 <LinearLayout
                     android:orientation="vertical"
                     android:padding="16dp"
@@ -83,6 +85,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -113,6 +116,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -143,6 +147,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -173,6 +178,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -203,6 +209,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -233,6 +240,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -263,6 +271,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -293,6 +302,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -323,6 +333,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -353,6 +364,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -383,6 +395,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -413,6 +426,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -443,6 +457,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -473,6 +488,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -503,6 +519,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -533,6 +550,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"
@@ -563,6 +581,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:clickable="true"

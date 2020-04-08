@@ -82,6 +82,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/less"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:rotation="90"
                         android:padding="10sp"
@@ -104,6 +106,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/fawad"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="95dp"
                         android:layout_height="95dp"/>
                 </androidx.cardview.widget.CardView>
@@ -119,6 +123,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/faiq"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="95dp"
                         android:layout_height="95dp"/>
                 </androidx.cardview.widget.CardView>
@@ -134,6 +140,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/naukhaiz"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="95dp"
                         android:layout_height="95dp"/>
                 </androidx.cardview.widget.CardView>
@@ -152,6 +160,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:text="we are microelab"
                         android:padding="10dp"
                         android:textAllCaps="true"
@@ -196,6 +206,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/microelab"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:padding="10sp"
                         android:layout_height="90dp"/>
@@ -217,6 +229,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/android"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:padding="10sp"
                         android:layout_height="90dp"/>
@@ -233,6 +247,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/iphone"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:padding="10sp"
                         android:layout_height="90dp"/>
@@ -249,6 +265,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/windows"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:padding="10sp"
                         android:layout_height="90dp"/>
@@ -271,6 +289,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/web_design_square"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="100dp"
                         android:padding="10sp"
                         android:layout_height="100dp"/>
@@ -330,6 +350,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/lahorestore_long"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="match_parent"
                         android:layout_height="70dp"/>
                 </androidx.cardview.widget.CardView>
@@ -369,6 +391,8 @@
                     android:layout_margin="20dp">
                     <ImageView
                         android:src="@drawable/lahorestore_short"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:layout_width="90dp"
                         android:padding="10sp"
                         android:layout_height="90dp"/>
